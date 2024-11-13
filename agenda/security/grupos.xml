@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Definir la categoría del módulo Agenda -->
+    <record id="module_category_agenda" model="ir.module.category">
+        <field name="name">Agenda</field>
+        <field name="sequence">10</field>
+    </record>
+
+    <!-- Definir el grupo Estudiante -->
+    <record id="group_estudiante" model="res.groups">
+        <field name="name">Estudiante</field>
+        <field name="category_id" ref="module_category_agenda"/>
+    </record>
+
+    <!-- Definir el grupo Profesor -->
+
+    <record id="group_profesor" model="res.groups">
+        <field name="name">Profesor</field>
+        <field name="category_id" ref="module_category_agenda"/>
+    </record>
+
+    <!-- Definir el grupo tutores -->
+    <record id="group_tutor" model="res.groups">
+        <field name="name">Tutor</field>
+        <field name="category_id" ref="module_category_agenda"/>
+    </record>
+
+</odoo>
