@@ -63,7 +63,7 @@
     </record>
 
     <!-- Menú para Tutores -->
-    <menuitem id="menu_tutor_root" name="Tutores" parent="menu_agenda_root" sequence="10"/>
+    <menuitem id="menu_tutor_root" name="Tutores" parent="menu_agenda_root" groups="base.group_system"  sequence="10"/>
     <menuitem id="menu_tutor" name="Gestionar Tutores" parent="menu_tutor_root" action="action_tutor" sequence="10"/>
 
   

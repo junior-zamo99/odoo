@@ -29,6 +29,9 @@
         </record>
 
         <!-- Menú para acceder a "Mis Cursos" -->
-        <menuitem id="menu_agenda_mis_cursos_root" name="Mis Cursos" parent="menu_agenda_root" action="action_view_agenda_mis_cursos" groups="agenda.group_profesor"  sequence="2"/>
+        <menuitem id="menu_agenda_mis_cursos_root" name="Mis Cursos" parent="menu_agenda_root"
+         action="action_view_agenda_mis_cursos"
+         groups="agenda.group_profesor"
+            sequence="2"/>
     </data>
 </odoo>

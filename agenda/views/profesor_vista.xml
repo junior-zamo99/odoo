@@ -56,6 +56,6 @@
         </record>
 
         <!-- Menu item for agenda.profesor -->
-        <menuitem id="menu_agenda_profesor" name="Profesores" parent="menu_agenda_root" action="action_agenda_profesor"/>
+        <menuitem id="menu_agenda_profesor" name="Profesores" parent="menu_agenda_root"  groups="base.group_system" action="action_agenda_profesor"/>
     </data>
 </odoo>

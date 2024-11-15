@@ -56,7 +56,7 @@
         </record>
 
         <!-- Menu item for agenda.materia -->
-        <menuitem id="menu_agenda_materia_root" name="Materias" parent="menu_agenda_root" action="action_agenda_materia" sequence="1"/>
+        <menuitem id="menu_agenda_materia_root" name="Materias" parent="menu_agenda_root"  groups="base.group_system" action="action_agenda_materia" sequence="1"/>
 
     </data>
 </odoo>

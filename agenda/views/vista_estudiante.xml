@@ -28,7 +28,7 @@
 </record>
    
         <!-- Menu item for agenda.materia -->
-        <menuitem id="menu_agenda_mis_materia_root" name="Mis Materias" parent="menu_agenda_root" action="action_view_agenda_mis_materias" sequence="1"/>
+        <menuitem id="menu_agenda_mis_materia_root" name="Mis Materias" parent="menu_agenda_root" groups="agenda.group_estudiante"  action="action_view_agenda_mis_materias" sequence="1"/>
 
     </data>
 

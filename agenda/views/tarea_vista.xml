@@ -76,6 +76,6 @@
         </record>
 
         <!-- Menú para acceder a la vista de tareas -->
-        <menuitem id="menu_agenda_tarea" name="Tareas" parent="menu_agenda_root" action="action_agenda_tarea_kanban"/>
+        <menuitem id="menu_agenda_tarea" name="Tareas" parent="menu_agenda_root" groups="agenda.group_profesor"  action="action_agenda_tarea_kanban"/>
     </data>
 </odoo>

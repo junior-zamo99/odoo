@@ -29,6 +29,8 @@
         </record>
 
         <!-- Menú para acceder a "Mis Estudiantes" -->
-        <menuitem id="menu_agenda_mis_estudiantes_root" name="Mis Estudiantes" parent="menu_agenda_root" action="action_view_agenda_mis_estudiantes" sequence="2"/>
+        <menuitem id="menu_agenda_mis_estudiantes_root" name="Mis Estudiantes" parent="menu_agenda_root"
+        groups="agenda.group_tutor" 
+         action="action_view_agenda_mis_estudiantes" sequence="2"/>
     </data>
 </odoo>

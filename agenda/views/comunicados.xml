@@ -58,6 +58,6 @@
         </record>
 
         <!-- Menú para acceder a la vista de comunicados -->
-        <menuitem id="menu_agenda_comunicado" name="Comunicados" parent="menu_agenda_root" action="action_agenda_comunicado"/>
+        <menuitem id="menu_agenda_comunicado" name="Comunicados" parent="menu_agenda_root"  groups="base.group_system" action="action_agenda_comunicado"/>
     </data>
 </odoo>

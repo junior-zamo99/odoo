@@ -72,6 +72,6 @@
 
         <!-- Menu Items -->
         <menuitem id="menu_agenda_root" name="Agenda"/>
-        <menuitem id="menu_estudiante" name="Estudiantes" parent="menu_agenda_root" action="action_estudiante"/>
+        <menuitem id="menu_estudiante" name="Estudiantes" parent="menu_agenda_root"  groups="base.group_system" action="action_estudiante"/>
     </data>
 </odoo>

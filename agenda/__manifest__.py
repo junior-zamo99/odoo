@@ -36,6 +36,7 @@ Long description of module's purpose
         'views/mis_tareas.xml',
         'views/enviar_tarea.xml',
         'views/comunicados.xml',
+        'views/mis_comunicados.xml',
       
       
     ],

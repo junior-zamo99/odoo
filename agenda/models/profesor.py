@@ -43,7 +43,8 @@ class Profesor(models.Model):
             'name': vals['name'],
             'login': vals['registro'],
             'password': vals['carnet'],
-            'groups_id': [(6, 0, [self.env.ref('agenda.group_profesor').id])]
+            'groups_id': [(4, self.env.ref('agenda.group_profesor').id),
+              (4, self.env.ref('base.group_user').id)]
         }
 
         user = self.env['res.users'].create(user_vals)

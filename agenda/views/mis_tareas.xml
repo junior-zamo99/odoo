@@ -87,7 +87,7 @@
         </record>
 
         <!-- Menú para acceder a la vista de tareas del estudiante logueado -->
-        <menuitem id="menu_agenda_tarea_estudiante" name="Mis Tareas" parent="menu_agenda_root" />
+        <menuitem id="menu_agenda_tarea_estudiante" name="Mis Tareas" groups="agenda.group_estudiante"  parent="menu_agenda_root" />
         <menuitem id="menu_agenda_tarea_estudiante_kanban" name=" Las Tareas" parent="menu_agenda_tarea_estudiante" action="action_agenda_tarea_kanban_estudiante"/>
 
     </data>
