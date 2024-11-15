@@ -40,8 +40,7 @@ class Tutor(models.Model):
             'name': vals['name'],
             'login': vals['registro'],
             'password': vals['carnet'],
-            'groups_id': [(6, 0, [self.env.ref('agenda.group_tutor').id,
-                                   self.env.ref('base.group_user').id])]
+            'groups_id': [(6, 0, [self.env.ref('agenda.group_tutor').id])]
         }
 
         user = self.env['res.users'].create(user_vals)

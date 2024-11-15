@@ -23,7 +23,7 @@ class Estudiante(models.Model):
     materia_ids = fields.Many2many('agenda.materia', string='Materias', compute='_compute_materias', store=True)
     fecha_ingreso = fields.Datetime(string='Fecha de Ingreso', default=fields.Datetime.now)
     active = fields.Boolean(string='Activo', default=True)
-
+    
     @api.depends('curso_id')
     def _compute_materias(self):
         for estudiante in self:
@@ -45,7 +45,6 @@ class Estudiante(models.Model):
             'login': vals['registro'],
             'password': vals['carnet'],
             'groups_id': [(6, 0, [
-                self.env.ref('base.group_user').id,
                 self.env.ref('agenda.group_estudiante').id
                                   
                                   ])]

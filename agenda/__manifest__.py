@@ -29,9 +29,14 @@ Long description of module's purpose
         'views/tutor_vista.xml',
         'views/curso_vista.xml',
         'views/materia_vista.xml',
-        'views/vista_estudiante.xml',
         'views/mis_cursos.xml',
-        'views/vista_tutor.xml'
+        'views/vista_estudiante.xml',
+        'views/vista_tutor.xml',
+        'views/tarea_vista.xml',
+        'views/mis_tareas.xml',
+        'views/enviar_tarea.xml',
+        'views/comunicados.xml',
+      
       
     ],
     # only loaded in demonstration mode

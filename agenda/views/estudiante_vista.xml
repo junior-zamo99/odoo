@@ -19,6 +19,16 @@
                             <field name="fecha_ingreso"/>
                             <field name="active"/>
                         </group>
+                        <notebook>
+                            <page string="Materias">
+                                <field name="materia_ids">
+                                    <tree string="Materias">
+                                        <field name="name"/>
+                                        <field name="descripcion"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
                     </sheet>
                 </form>
             </field>
